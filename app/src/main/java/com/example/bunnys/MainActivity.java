@@ -60,6 +60,7 @@ SwipeRefreshLayout swipeRefreshLayout;
             public void onRefresh() {
                 webView.reload();
             }
+
         });
 
         webView.setWebViewClient(new WebViewClient(){
